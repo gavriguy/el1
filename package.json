@@ -1,0 +1,14 @@
+{
+  "name": "el1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node pkg.js —platform=darwin"
+  },
+  "devDependencies": {
+    "electron-packager": "5.2.0",
+    "shelljs": "0.5.3"
+  }
+}

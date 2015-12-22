@@ -1,0 +1,19 @@
+general:
+  artifacts:
+    - "build"
+
+machine:
+  environment:
+    XCODE_SCHEME: ""
+    XCODE_PROJECT: "fixtures/blablabla.xcodeproj"
+  xcode:
+    version: "6.3.1"
+
+dependencies:
+  pre:
+    - brew install nodejs
+    - npm install
+
+test:
+  override:
+    - npm build
