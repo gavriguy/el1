@@ -6,3 +6,10 @@ install:
 
 script:
   - npm run build
+
+addons:
+  artifacts: true
+  s3_region: "eu-central-1"
+  artifacts:
+    path:
+      - ./build
