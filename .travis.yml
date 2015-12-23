@@ -1,0 +1,8 @@
+os:
+  - osx
+install:
+  - brew install nodejs
+  - npm install
+
+script:
+  - npm build
